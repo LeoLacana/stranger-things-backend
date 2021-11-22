@@ -1,5 +1,5 @@
 apps:
-  - name: herokuDeploy
+  - name: app-stranger-things
     script: ./index.js
     exec_mode: cluster
     instances: 2
