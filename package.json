@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.yml",
-    "start:dev": "pm2-runtime start --name app --watch",
+    "start:dev": "pm2-runtime start --name herokuDeploy --watch",
     "test": "jest --runInBand  --detectOpenHandles --forceExit",
     "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },

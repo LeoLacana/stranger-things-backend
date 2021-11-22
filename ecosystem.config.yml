@@ -1,7 +1,7 @@
 apps:
-  - name: app
+  - name: herokuDeploy
     script: ./index.js
     exec_mode: cluster
     instances: 2
     watch: false
-    max_memory_restart: 200M
+    max_memory_restart: 200M 
